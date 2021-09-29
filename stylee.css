@@ -1,0 +1,43 @@
+header{
+    text-align: center;
+    border: 1px solid #666;
+}
+.image{
+    background-image: url("1.jpg");
+    float: left;
+    width: 29%;
+    border: 1px solid #666;
+    height: 550px;
+    font-size: 27px;
+}
+.name{
+    background-color: antiquewhite;
+    float: right;
+    width: 69%;
+    text-align: center;
+    border: 1px solid #666;
+    height: 50px;
+    font-size: 27px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.inform{
+    float: right;
+    border: 1px solid #666;
+    text-align: center;
+    width: 440px;
+    height: 440px;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.like{
+    float: right;
+    border: 1px solid #666;
+    width: 489px;
+    height: 440px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
