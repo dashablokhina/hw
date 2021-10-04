@@ -41,3 +41,14 @@ header{
     padding-top: 10px;
     margin-top: 10px;
 }
+.menu{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font: 20px "Palatino Linotype";
+    justify-content: flex-end;
+}
+.nnnn{
+    padding-right: 20px;
+    margin-bottom: 10px;
+}

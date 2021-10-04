@@ -1,0 +1,39 @@
+.grid{
+    height: 100%;
+    width: 100%;
+    border: 1px black;
+}
+.oip{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 150px 150px 150px 150px ;
+    grid-column-gap: 5%;
+    grid-template-rows: 5%;
+}
+.one{
+    border: 2px solid black;
+    text-align: center;
+    font: 15px "Times New Roman";
+    background-color: white;
+
+}
+.cattt{
+    font: 40px "Times New Roman";
+    color: black;
+    text-align: center;
+}
+.flex{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15% -1%;
+}
+.gr{
+    flex: 1;
+    background-size: 25px;
+    margin: 1%;
+}
+.poroda{
+    border: 2px solid black;
+}
