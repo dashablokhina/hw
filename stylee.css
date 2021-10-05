@@ -1,12 +1,10 @@
 header{
     text-align: center;
-    border: 1px solid #666;
 }
 .image{
     background-image: url("1.jpg");
     float: left;
     width: 29%;
-    border: 1px solid #666;
     height: 550px;
     font-size: 27px;
 }
@@ -15,7 +13,6 @@ header{
     float: right;
     width: 69%;
     text-align: center;
-    border: 1px solid #666;
     height: 50px;
     font-size: 27px;
     padding-top: 10px;
@@ -23,7 +20,6 @@ header{
 }
 .inform{
     float: right;
-    border: 1px solid #666;
     text-align: center;
     width: 440px;
     height: 440px;
@@ -33,7 +29,6 @@ header{
 }
 .like{
     float: right;
-    border: 1px solid #666;
     width: 489px;
     height: 440px;
     font-size: 30px;
@@ -51,4 +46,63 @@ header{
 .nnnn{
     padding-right: 20px;
     margin-bottom: 10px;
+}
+.grid{
+    height: 100%;
+    width: 100%;
+
+}
+.oip{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 200px 200px 200px 200px ;
+    grid-column-gap: 1%;
+    grid-template-rows: 1%;
+    padding: 20px;
+
+
+}
+.poroda{
+    display: inline-block;
+}
+.one{
+
+    text-align: center;
+    font: 15px "Times New Roman";
+    background-color: white;
+
+
+}
+.cattt{
+    font: 20px "Times New Roman";
+    color: black;
+    text-align: center;
+
+
+}
+
+.flex{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20% -1%;
+}
+.gr{
+    flex: 1;
+    background-size: 25px;
+    margin: 1%;
+}
+.poroda:hover{
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+@media screen and (max-width: 1024px){
+  /*что-то у  меня не получается*/
+    .poroda{
+        flex-direction: column;
+        max-width: 50%
+    }
 }
