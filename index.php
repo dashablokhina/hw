@@ -10,7 +10,6 @@ if(($time > 00) && ($time < 07)){
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylee.css">
     <link rel='stylesheet' href='day.css'>
     <link rel='stylesheet' href='night.css'>
     <title>Title</title>
