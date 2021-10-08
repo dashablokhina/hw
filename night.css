@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 header{
     text-align: center;
 }
@@ -100,7 +103,7 @@ header{
 }
 
 @media screen and (max-width: 1024px){
-  /*что-то у  меня не получается*/
+    /*что-то у  меня не получается*/
     .grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
