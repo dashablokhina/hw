@@ -1,11 +1,13 @@
 body{
     background-color: black;
+
 }
 header{
     text-align: center;
+    color: white;
 }
 .image{
-    background-image: url("1.jpg");
+    background-image: url("img/1.jpg");
     float: left;
     width: 29%;
     height: 550px;
@@ -20,6 +22,7 @@ header{
     font-size: 27px;
     padding-top: 10px;
     margin-top: 10px;
+    color: white;
 }
 .inform{
     float: right;
@@ -29,6 +32,8 @@ header{
     font-size: 30px;
     padding-top: 10px;
     margin-top: 10px;
+    color: white;
+
 }
 .like{
     float: right;
@@ -38,6 +43,7 @@ header{
     text-align: center;
     padding-top: 10px;
     margin-top: 10px;
+    color: white;
 }
 .menu{
     text-align: center;

@@ -5,7 +5,7 @@ header{
     text-align: center;
 }
 .image{
-    background-image: url("1.jpg");
+    background-image: url("img/1.jpg");
     float: left;
     width: 29%;
     height: 550px;

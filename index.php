@@ -24,6 +24,9 @@ if(($time > 00) && ($time < 07)){
         <div class="nnnn">
             <a href="index3.html">Картинки</a>
         </div>
+        <div class="nnnn">
+            <a href="massiv.php">Массивы</a>
+        </div>
     </div>
 </header>
 <div class="container">
@@ -36,7 +39,7 @@ if(($time > 00) && ($time < 07)){
             <div class="grid">
                 <div class="poroda">
                     <a href="https://lapkins.ru/cat/meyn-kun/">
-                        <img src="33.jpg" alt="" width="100%">
+                        <img src="img/33.jpg" alt="" width="100%">
                     </a>
                 </div>
                 <div class="one">Мейн-кун</div>
@@ -44,7 +47,7 @@ if(($time > 00) && ($time < 07)){
             <div class="grid">
                 <div class="poroda">
                     <a href="https://lapkins.ru/cat/shotlandskaya-visloukhaya-koshka/">
-                        <img src="22.jpg" alt="" width="100%">
+                        <img src="img/22.jpg" alt="" width="100%">
                     </a>
                     <div class="one">Шотландская вислоухая кошка</div>
                 </div>
@@ -52,7 +55,7 @@ if(($time > 00) && ($time < 07)){
             <div class="grid">
                 <div class="poroda">
                     <a href="https://lapkins.ru/cat/manchkin/">
-                        <img src="5.jpg" alt="" width="100%">
+                        <img src="img/5.jpg" alt="" width="100%">
                     </a>
                     <div class="one">Манчкин</div>
                 </div>
@@ -60,7 +63,7 @@ if(($time > 00) && ($time < 07)){
             <div class="grid">
                 <div class="poroda">
                     <a href="https://lapkins.ru/cat/burmanskaya-koshka/">
-                        <img src="1111.jpg" alt="" width="100%">
+                        <img src="img/1111.jpg" alt="" width="100%">
                     </a>
                     <div class="one">Бурманская кошка</div>
                 </div>
@@ -74,7 +77,7 @@ if(($time > 00) && ($time < 07)){
             <div class="gr">
                 <div class="poroda">
                     <a href="https://lapkins.ru/cat/meyn-kun/">
-                        <img src="33.jpg" alt="" width="100%">
+                        <img src="img/33.jpg" alt="" width="100%">
                     </a>
                 </div>
                 <div class="one">Мейн-кун</div>
@@ -82,7 +85,7 @@ if(($time > 00) && ($time < 07)){
             <div class="gr">
                 <div class="poroda">
                     <a href="https://lapkins.ru/cat/shotlandskaya-visloukhaya-koshka/">
-                        <img src="22.jpg" alt="" width="100%">
+                        <img src="img/22.jpg" alt="" width="100%">
                     </a>
                     <div class="one">Шотландская вислоухая кошка</div>
                 </div>
@@ -90,7 +93,7 @@ if(($time > 00) && ($time < 07)){
             <div class="gr">
                 <div class="poroda">
                     <a href="https://lapkins.ru/cat/manchkin/">
-                        <img src="5.jpg" alt="" width="100%">
+                        <img src="img/5.jpg" alt="" width="100%">
                     </a>
                     <div class="one">Манчкин</div>
                 </div>
@@ -98,7 +101,7 @@ if(($time > 00) && ($time < 07)){
             <div class="gr">
                 <div class="poroda">
                     <a href="https://lapkins.ru/cat/burmanskaya-koshka/">
-                        <img src="1111.jpg" alt="" width="100%">
+                        <img src="img/1111.jpg" alt="" width="100%">
                     </a>
                     <div class="one">Бурманская кошка</div>
                 </div>
