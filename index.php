@@ -29,6 +29,9 @@ function real()
         <div class="nnnn">
             <a href="massiv.php">Массивы</a>
         </div>
+        <div class="nnnn">
+            <a href="avtoriz.php">Авторизация</a>
+        </div>
     </div>
 </header>
 <div class="container">
