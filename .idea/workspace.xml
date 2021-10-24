@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c156ea-68b1-4346-840d-8c6ef87aa152" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/avtoriz.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="73c156ea-68b1-4346-840d-8c6ef87aa152" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634487160003</updated>
       <workItem from="1634487162980" duration="615000" />
-      <workItem from="1634665643341" duration="8414000" />
+      <workItem from="1634665643341" duration="8697000" />
     </task>
     <servers />
   </component>
