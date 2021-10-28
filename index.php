@@ -2,7 +2,7 @@
 date_default_timezone_set('Europe/Moscow');
 function real()
 {
-    if (date('H') > 00 && date('H') < 07 ){
+    if (date('H') > 00 && date('H') < 07){
         echo 'night.css';
     } else {
         echo 'day.css';

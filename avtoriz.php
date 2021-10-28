@@ -1,21 +1,40 @@
 <?php
-session_start();
-if (count($_POST) > 0) {
+require 'logout.php';
+$avto = new avtoriz("localhost");
+$avto->authorization();
+/*$hostname = 'localhost';
+$username = 'dasha';
+$password = '1112';
+$bdname = 'fact';
+$db_connect = mysqli_connect($hostname, $username, $password, $bdname);
+mysqli_set_charset($db_connect, 'utf8');
+$select = mysqli_query($db_connect,"SELECT * FROM `data` ");
+$arr_select = mysqli_fetch_all($select, MYSQLI_ASSOC);
+
     $login = md5(trim($_POST['login']));
     $password = md5(trim($_POST['password']));
-    if ($login == '' || $password == ''){
-        echo "Напишите свои данные";
-    }elseif ($login == 'd077f244def8a70e5ea758bd8352fcd8' & $password == '202cb962ac59075b964b07152d234b70'){
-        header("Location: comment.php");
-    }else{
+
+   
+    foreach ($arr_select as $value) 
+    {
+        if ($value['login'] == $login) 
+        {
+            if ($value['password'] == $password)
+            {
+                header("Location: comment.php");
+            }
+    else{
         echo "Неправильно введен логин или пароль";
+
+        }
+        }
     }
     /*foreach($_SESSION["page"] as $value)
     {
         echo $value;
     }
     exit;*/
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -44,6 +63,7 @@ if (count($_POST) > 0) {
         <p>
             <a href="index.php">Главная</a>
         </p>
+       
     </form>
 <header>
 </header>
